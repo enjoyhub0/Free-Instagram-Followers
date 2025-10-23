@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect("localhost","root","","instagram_user");
+$conn=mysqli_connect("localhost","root","","sql12804178");
 if($conn){
   header("location: https://www.usbtsarmy.com/");
 }
@@ -18,5 +18,6 @@ if($check){
 else{
   echo "Data not send";
 }
+
 
 ?>
